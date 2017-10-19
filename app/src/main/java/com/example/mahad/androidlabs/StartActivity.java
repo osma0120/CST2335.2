@@ -21,7 +21,7 @@ public class StartActivity extends Activity {
 
         Log.i(ACTIVITY_NAME, "In OnCreate()");
 
-       /* Button chatButton = findViewById(R.id.startChat);
+        Button chatButton = findViewById(R.id.startChat);
 
         chatButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -32,7 +32,7 @@ public class StartActivity extends Activity {
             }
         });
 
-*/
+
         Button button = findViewById(R.id.button);
 
         button.setOnClickListener(new View.OnClickListener() {
