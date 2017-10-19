@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name ="app_name"> AndroidLabs</string>
+    <string name ="hello_message"> Bonjour! </string>
+    <string name ="ButtonText"> Je suis un bouton </string>
+    <string name="LoginMessage"> S\'identifier </string>
+    <string name="LoginHint"> Identifiant </string>
+    <string name="PasswordMessage">Mot de passe </string>
+    <string name="RBMessage"> BoutonRadio </string>
+    <string name="CBMessage"> Case à cocher </string>
+    <string name="SwitchMessage">Qu\'est-ce que cela fait?</string>
+    <string name="dialog_title"> ACTIVITÉ DE FINITION </string>
+    <string name="cancel">ANNULER </string>
+    <string name="ToastMessage"> ListItemsActivity passé: Mes informations à partager</string>
+    <string name="ok"> D\'accord </string>
+</resources>
