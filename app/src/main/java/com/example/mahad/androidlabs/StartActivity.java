@@ -43,6 +43,21 @@ public class StartActivity extends Activity {
 
             }
         });
+
+
+        // Weather button + the onclickListner to switch activites
+
+        Button weatherButton = findViewById(R.id.weatherButton);
+        weatherButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent weatherIntent = new Intent (StartActivity.this, WeatherForecast.class);
+                startActivityForResult(weatherIntent, 11);
+            }
+        });
+
+
+
     }
 
     public void onActivityResult(int requestCode, int resultCode, Intent data) {

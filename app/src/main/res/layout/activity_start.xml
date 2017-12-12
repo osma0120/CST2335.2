@@ -37,5 +37,13 @@
         android:id="@+id/startChat"
         />
 
+    <Button
+        android:id="@+id/weatherButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WeatherForecast"
+        app:layout_constraintBottom_toTopOf="parent"
+        />
+
 
 </android.support.constraint.ConstraintLayout>
